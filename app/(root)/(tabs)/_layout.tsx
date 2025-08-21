@@ -30,7 +30,7 @@ const TabIcon = ({
 export default function Layout() {
   return (
     <Tabs
-      initialRouteName="home"
+      initialRouteName="home/index"
       screenOptions={{
         tabBarActiveTintColor: "white",
         tabBarInactiveTintColor: "white",
@@ -52,7 +52,7 @@ export default function Layout() {
       }}
     >
       <Tabs.Screen
-        name="home"
+        name="home/index"
         options={{
           title: "Home",
           headerShown: false,
@@ -62,7 +62,7 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
-        name="rides"
+        name="rides/index"
         options={{
           title: "Rides",
           headerShown: false,
@@ -72,7 +72,7 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
-        name="chat"
+        name="chat/index"
         options={{
           title: "Chat",
           headerShown: false,
@@ -82,7 +82,7 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
-        name="profile"
+        name="profile/index"
         options={{
           title: "Profile",
           headerShown: false,
